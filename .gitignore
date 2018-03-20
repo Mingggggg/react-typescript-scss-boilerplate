@@ -1,0 +1,9 @@
+.vscode
+.DS_Store
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+dist
+node_modules
+src/styles/**.scss.d.ts

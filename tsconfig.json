@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015",
+        "removeComments": true,
+        "jsx": "react",
+        "allowJs": false,
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./index.d.ts"
+        ],
+        "types" : [
+            "react",
+            "react-dom",
+            "react-router"
+        ]
+    },
+    "exclude": [
+        "./node_modules"
+    ],
+    "include": [
+        "src"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "minimum-react-typescript-scss-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mingyang Wang <mw3165@nyu.edu>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack -w --mode=development",
+    "serve": "python2.7 -m SimpleHTTPServer 3000"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-router": "^4.0.23",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
